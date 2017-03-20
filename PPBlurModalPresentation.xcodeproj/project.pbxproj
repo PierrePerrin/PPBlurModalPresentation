@@ -16,6 +16,8 @@
 		F9257D161E801B6C00DAC521 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F9257D141E801B6C00DAC521 /* LICENSE */; };
 		F9257D171E801B6C00DAC521 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F9257D151E801B6C00DAC521 /* README.md */; };
 		F9257D191E801C0700DAC521 /* bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9257D181E801C0700DAC521 /* bird.jpg */; };
+		F94127881E8032E000538F85 /* bird2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F94127871E8032E000538F85 /* bird2.jpg */; };
+		F941278A1E8036F100538F85 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = F94127891E8036F100538F85 /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		F9257D141E801B6C00DAC521 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F9257D151E801B6C00DAC521 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F9257D181E801C0700DAC521 /* bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bird.jpg; sourceTree = "<group>"; };
+		F94127871E8032E000538F85 /* bird2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bird2.jpg; sourceTree = "<group>"; };
+		F94127891E8036F100538F85 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 		DC522E421D174D98001E8C9A = {
 			isa = PBXGroup;
 			children = (
+				F94127891E8036F100538F85 /* demo.gif */,
 				F9257D081E801AD400DAC521 /* BlurModalPresentation.swift */,
 				F9257D141E801B6C00DAC521 /* LICENSE */,
 				F9257D151E801B6C00DAC521 /* README.md */,
@@ -52,6 +57,7 @@
 				F9257D101E801ADE00DAC521 /* Main.storyboard */,
 				F9257D061E801AD400DAC521 /* AppDelegate.swift */,
 				F9257D181E801C0700DAC521 /* bird.jpg */,
+				F94127871E8032E000538F85 /* bird2.jpg */,
 				F9257D071E801AD400DAC521 /* BlueViewController.swift */,
 				F9257D091E801AD400DAC521 /* ViewController.swift */,
 				DC522E4C1D174D98001E8C9A /* Products */,
@@ -128,9 +134,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F94127881E8032E000538F85 /* bird2.jpg in Resources */,
 				F9257D191E801C0700DAC521 /* bird.jpg in Resources */,
 				F9257D161E801B6C00DAC521 /* LICENSE in Resources */,
 				F9257D121E801ADE00DAC521 /* LaunchScreen.storyboard in Resources */,
+				F941278A1E8036F100538F85 /* demo.gif in Resources */,
 				F9257D131E801ADE00DAC521 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

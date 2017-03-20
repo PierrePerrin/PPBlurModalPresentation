@@ -4,6 +4,8 @@
 
 PPBlurModalPresentation allows you to make presentation blur transition using UIVisual effect and UIViewPropertyAnimator.
 
+![alt tag](https://github.com/PierrePerrin/PPBlurModalPresentation/blob/master/demo.gif)
+
 ## Installation
 
 ### CocoaPods
