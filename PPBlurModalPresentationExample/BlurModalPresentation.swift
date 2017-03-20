@@ -35,9 +35,9 @@ class BlurModalPresentation: NSObject,UIViewControllerAnimatedTransitioning {
         blurView.effect = nil
         blurView.frame = containerView.bounds
         
-        self.blurTransition(context: transitionContext) { 
+        self.blurTransition(transitionContext) { 
             
-            self.unBlur(context: transitionContext, completion: { 
+            self.unBlur(transitionContext, completion: { 
                 
                 self.blurView.removeFromSuperview()
                 transitionContext.completeTransition(true)
@@ -49,7 +49,7 @@ class BlurModalPresentation: NSObject,UIViewControllerAnimatedTransitioning {
     }
     
     
-    func blurTransition(context : UIViewControllerContextTransitioning,completion: @escaping () -> Void){
+    func blurTransition(_ context : UIViewControllerContextTransitioning,completion: @escaping () -> Void){
         
         UIViewPropertyAnimator.runningPropertyAnimator(withDuration: self.transitionDuration(using: context)/2, delay: 0, options: UIViewAnimationOptions.curveLinear, animations: {
             
@@ -61,7 +61,7 @@ class BlurModalPresentation: NSObject,UIViewControllerAnimatedTransitioning {
         
     }
     
-    func unBlur(context : UIViewControllerContextTransitioning,completion: @escaping () -> Void){
+    func unBlur(_ context : UIViewControllerContextTransitioning,completion: @escaping () -> Void){
         
         UIViewPropertyAnimator.runningPropertyAnimator(withDuration: self.transitionDuration(using: context) / 2, delay:0, options: UIViewAnimationOptions.curveLinear, animations: {
             

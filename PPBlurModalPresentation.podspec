@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name             = 'PPMusicImageShadow'
+s.name             = 'PPBlurModalPresentation'
 s.version          = '1.0'
 s.summary          = 'Blur disolve effect in presenting viewControllers.'
 
@@ -13,6 +13,6 @@ s.author           = { 'Pierre Perrin' => 'pierreperrin@outlook.com' }
 s.source           = { :git => 'https://github.com/PierrePerrin/PPBlurModalPresentation.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '9.0'
-s.source_files = 'PPBlurModalPresentationExample/BlurModalPresentation.{swift}'
+s.source_files = 'PPBlurModalPresentationExample/BlurModalPresentation.swift'
 
 end
