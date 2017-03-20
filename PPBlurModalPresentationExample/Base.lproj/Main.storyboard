@@ -135,7 +135,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Blur Transition" id="gsH-Zs-yWf">
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="09N-ZH-GK8">
+                        <barButtonItem key="leftBarButtonItem" id="09N-ZH-GK8">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="p0E-Ii-XDR" userLabel="Quit">
                                 <rect key="frame" x="16" y="7" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>

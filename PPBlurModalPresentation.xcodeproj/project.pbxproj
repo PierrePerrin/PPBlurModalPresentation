@@ -14,7 +14,6 @@
 		F9257D121E801ADE00DAC521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9257D0E1E801ADE00DAC521 /* LaunchScreen.storyboard */; };
 		F9257D131E801ADE00DAC521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9257D101E801ADE00DAC521 /* Main.storyboard */; };
 		F9257D161E801B6C00DAC521 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F9257D141E801B6C00DAC521 /* LICENSE */; };
-		F9257D171E801B6C00DAC521 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F9257D151E801B6C00DAC521 /* README.md */; };
 		F9257D191E801C0700DAC521 /* bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9257D181E801C0700DAC521 /* bird.jpg */; };
 		F94127881E8032E000538F85 /* bird2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F94127871E8032E000538F85 /* bird2.jpg */; };
 		F941278A1E8036F100538F85 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = F94127891E8036F100538F85 /* demo.gif */; };
@@ -150,11 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9257D0C1E801AD400DAC521 /* BlurModalPresentation.swift in Sources */,
 				F9257D0B1E801AD400DAC521 /* BlueViewController.swift in Sources */,
 				F9257D0A1E801AD400DAC521 /* AppDelegate.swift in Sources */,
-				F9257D171E801B6C00DAC521 /* README.md in Sources */,
 				F9257D0D1E801AD400DAC521 /* ViewController.swift in Sources */,
-				F9257D0C1E801AD400DAC521 /* BlurModalPresentation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +281,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.PP.BlurModalPresentationExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -296,7 +294,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PP.BlurModalPresentationExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
