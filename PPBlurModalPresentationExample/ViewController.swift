@@ -16,12 +16,15 @@ class ViewController: UIViewController,UIViewControllerTransitioningDelegate {
         super.viewDidLoad()
         
     }
-
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    
+    func showVC(){
         
-        segue.destination.transitioningDelegate = self
-        
+        let str = self.storyboard!
+        let vc = str.instantiateViewController(withIdentifier: "YourViewControllerIdentifier")
+        vc.transitioningDelegate = self
+        self.present(vc, animated: true, completion: nil)
     }
+
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)

@@ -12,7 +12,7 @@ s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Pierre Perrin' => 'pierreperrin@outlook.com' }
 s.source           = { :git => 'https://github.com/PierrePerrin/PPBlurModalPresentation.git', :tag => s.version.to_s }
 
-s.ios.deployment_target = '9.0'
+s.ios.deployment_target = '10.0'
 s.source_files = 'PPBlurModalPresentationExample/BlurModalPresentation.swift'
 
 end
